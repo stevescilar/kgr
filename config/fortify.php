@@ -73,7 +73,7 @@ return [
     |
     */
 
-    'home' => '/dashboard',
+    'home' => '/home', //changed this from /dashboard to /home
 
     /*
     |--------------------------------------------------------------------------
