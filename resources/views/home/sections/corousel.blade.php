@@ -7,8 +7,8 @@
             <div class="carousel-inner">
                <div class="carousel-item active">
                   <img class="first-slide" src="images/banner1.jpg" alt="First slide">
-                  <div class="container">
-                  </div>
+                  {{-- <div class="container">
+                  </div> --}}
                </div>
                <div class="carousel-item">
                   <img class="second-slide" src="images/banner2.jpg" alt="Second slide">
@@ -25,31 +25,31 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
             <div class="booking_ocline">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-5">
-                     <div class="book_room">
-                        <h1>Book a Room Online</h1>
-                        <form class="book_now">
-                           <div class="row">
-                              <div class="col-md-12">
-                                 <span>Arrival</span>
-                                 <img class="date_cua" src="images/date.png">
-                                 <input class="online_book" placeholder="dd/mm/yyyy" type="date" name="dd/mm/yyyy">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-5">
+                        <div class="book_room">
+                           <h1>Book a Room Online</h1>
+                           <form class="book_now">
+                              <div class="row">
+                                 <div class="col-md-12">
+                                    <span>Arrival</span>
+                                    <img class="date_cua" src="images/date.png">
+                                    <input class="online_book" placeholder="dd/mm/yyyy" type="date" name="dd/mm/yyyy">
+                                 </div>
+                                 <div class="col-md-12">
+                                    <span>Departure</span>
+                                    <img class="date_cua" src="images/date.png">
+                                    <input class="online_book" placeholder="dd/mm/yyyy" type="date" name="dd/mm/yyyy">
+                                 </div>
+                                 <div class="col-md-12">
+                                    <button class="book_btn">Book Now</button>
+                                 </div>
                               </div>
-                              <div class="col-md-12">
-                                 <span>Departure</span>
-                                 <img class="date_cua" src="images/date.png">
-                                 <input class="online_book" placeholder="dd/mm/yyyy" type="date" name="dd/mm/yyyy">
-                              </div>
-                              <div class="col-md-12">
-                                 <button class="book_btn">Book Now</button>
-                              </div>
-                           </div>
-                        </form>
+                           </form>
+                        </div>
                      </div>
                   </div>
                </div>
             </div>
-         </div>
  </div>

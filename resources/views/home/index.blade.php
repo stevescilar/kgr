@@ -20,7 +20,7 @@
     <!-- end header inner -->
     <!-- end header -->
     <!-- banner -->
-
+    <div class="about">
     <section class="banner_main">
         <div id="myCarousel" class="carousel slide banner" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -80,6 +80,7 @@
             </div>
         </div>
     </section>
+    </div>
 
     <!-- end banner -->
     <!-- about -->

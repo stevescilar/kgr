@@ -36,9 +36,23 @@
 .container {
      max-width: 1170px;
 }
-
-html {
+.container-fluid {
+     width: 100%;
+     padding-right: 15px;
+     padding-left: 15px;
+     margin-right: auto;
+     margin-left: auto;
+}
+html,body {
      scroll-behavior: smooth;
+     overflow-x: hidden;
+     width: 100%;
+}
+.row{
+     margin-right: -15px;
+     margin-left: -15px;
+     /* display: flex;
+     flex-wrap: wrap; */
 }
 
 body {
@@ -47,6 +61,8 @@ body {
      font-family: 'Poppins', sans-serif;
      line-height: 1.80857;
      font-weight: normal;
+     margin: 0;
+     padding: 0;
 }
 
 a {
@@ -302,6 +318,8 @@ button {
 
 .banner_main {
      position: relative;
+     width: 100%;
+     overflow: hidden;
 }
 
 .banner .carousel-indicators li {
